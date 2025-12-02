@@ -1,0 +1,15 @@
+name: OPRL
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python= 3.10.18
+  - numpy = 1.26.4
+  - pip
+  - pip:
+      - gymnasium == 1.2.1
+      - ursina == 5.2.0
+      - Panda3D == 1.10.15
+      - pandas == 2.3.2
+      - matplotlib == 3.10.5
+      - openpyxl == 3.1.5
